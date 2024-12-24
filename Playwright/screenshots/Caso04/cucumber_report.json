@@ -1,0 +1,188 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "agregar-mascotas-al-perfil-del-dueño;agregar-2-mascotas-al-perfil-del-dueño",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Agregar 2 mascotas al perfil del dueño",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estoy en el perfil del dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2555653200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "selecciono la opción para agregar mascotas",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:157"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 634948800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "completo el formulario con la información de la mascota \"Martha\" \"2024-10-10\" \"dog\"",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199748899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "hago clic en guardar mascota",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648468899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "la mascota \"Martha\" debe aparecer correctamente en la lista de mascotas del dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:179"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365701299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@petclinic",
+            "line": 1
+          },
+          {
+            "name": "@Add-pets",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "agregar-mascotas-al-perfil-del-dueño;agregar-2-mascotas-al-perfil-del-dueño",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Agregar 2 mascotas al perfil del dueño",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estoy en el perfil del dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3833571999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "selecciono la opción para agregar mascotas",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:157"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 698126200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "completo el formulario con la información de la mascota \"Fran\" \"2022-10-19\" \"cat\"",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163079900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "hago clic en guardar mascota",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:174"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601789600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "la mascota \"Fran\" debe aparecer correctamente en la lista de mascotas del dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:179"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381927700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@petclinic",
+            "line": 1
+          },
+          {
+            "name": "@Add-pets",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "agregar-mascotas-al-perfil-del-dueño",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Agregar mascotas al perfil del dueño",
+    "tags": [
+      {
+        "name": "@petclinic",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\addPets.feature"
+  }
+]

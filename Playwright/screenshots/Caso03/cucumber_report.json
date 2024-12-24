@@ -1,0 +1,181 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "buscar-y-editar-dueño;buscar-y-editar-un-dueño",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Buscar y editar un dueño",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "El usuario se encuentra en la pagina de petclinic",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2489032799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "da click en el apartado buscar dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398975699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "se ingresa el apellido del dueño \"Carrasco\"",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124616500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "da click en el boton buscar dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242244899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "se muestra la lista de los dueños que coinciden con la busqueda",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32786399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "da click en el dueño que se desea editar",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 309288799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "se muestra la informacion del dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133393799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "da click en el boton editar dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 436532500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "se completa la informacion del dueño \"Pedro\" \"Carrasco\" \"Trujillo\" \"Trujillo\" \"9876543210\"",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195036500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "da click en el boton de actualizar dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 477071899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "se muestra la informacion del dueño actualizada",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:138"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 430386700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@petclinic",
+            "line": 1
+          },
+          {
+            "name": "@Search-Edit-owners",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "buscar-y-editar-dueño",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "buscar y editar dueño",
+    "tags": [
+      {
+        "name": "@petclinic",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\searchAndEditOwner.feature"
+  }
+]

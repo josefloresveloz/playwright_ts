@@ -1,0 +1,90 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "petclinic;listar-todos-los-dueños-de-mascotas",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Listar todos los dueños de mascotas",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "El usuario se encuentra en la pagina de petclinic",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4416140100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "da click en el apartado buscar dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3505017299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "da click en el boton buscar dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3244618999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "se muestra la lista de los dueños",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3384680399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@petclinic",
+            "line": 1
+          },
+          {
+            "name": "@Seach-owners",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "petclinic",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Petclinic",
+    "tags": [
+      {
+        "name": "@petclinic",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\searchPetClinic.feature"
+  }
+]

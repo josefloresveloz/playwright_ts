@@ -1,0 +1,103 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "editar-mascotas;editar-los-datos-de-una-mascota",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Editar los datos de una mascota",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estoy en el perfil del dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3869313299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "selecciono la mascota que quiero editar",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:239"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1011130799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "completo el formulario con la información de la mascota \"Crespo\" \"2024-10-15\" \"dog\"",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:162"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187817200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "hago clic en guardar mascota editada",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:248"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672743199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "los cambios deben aplicarse correctamente y mostrarse en el perfil de la mascota",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:253"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 330121999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@petclinic",
+            "line": 1
+          },
+          {
+            "name": "@Edit-pet",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "editar-mascotas",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Editar mascotas",
+    "tags": [
+      {
+        "name": "@petclinic",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\editPets.feature"
+  }
+]

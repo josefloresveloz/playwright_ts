@@ -1,0 +1,116 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-petclinic;agregar-dueños",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Agregar dueños",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "El usuario se encuentra en la pagina de petclinic",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2532506699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "da click en el apartado buscar dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 517297300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "da click en el boton agregar dueños",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 350659400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "se completa la informacion del dueño \"Alberto\" \"Carrasco\" \"Esperanza\" \"Esperanza\" \"9876543210\"",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:120"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243997999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "se guarda la informacion del nuevo dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 385524300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "se muestra la informacion dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433799100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@petclinic",
+            "line": 1
+          },
+          {
+            "name": "@Add-owners",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-petclinic",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "add Petclinic",
+    "tags": [
+      {
+        "name": "@petclinic",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\addOwner.feature"
+  }
+]

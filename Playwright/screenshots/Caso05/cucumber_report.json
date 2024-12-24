@@ -1,0 +1,103 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-pets-to-owner-profile;agregar-una-visita-a-una-mascota-específica",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Agregar una visita a una mascota específica",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que estoy en el perfil del dueño",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:147"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2148234999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "selecciono la opción para agregar una visita",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:198"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 963563000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "completo el formulario con la información de la visita \"2021-12-30\" \"Revisión general\"",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:209"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166351900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "hago clic en guardar visita",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:222"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 626017499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "la visita debe aparecer correctamente en la lista de visitas asociadas a la mascota",
+            "match": {
+              "location": "src\\test\\steps\\PetClinitStep.ts:229"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398648699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@petclinic",
+            "line": 1
+          },
+          {
+            "name": "@Add-visit",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-pets-to-owner-profile",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Add Pets to Owner Profile",
+    "tags": [
+      {
+        "name": "@petclinic",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\feature\\addVisitPets.feature"
+  }
+]
